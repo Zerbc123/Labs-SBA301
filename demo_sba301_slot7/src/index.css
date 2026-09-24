@@ -1,0 +1,121 @@
+/**
+ * index.css — Global Design System
+ *
+ * Defines CSS custom properties (design tokens), resets, and base typography
+ * for the OrchidGallery React Router demo application.
+ */
+
+/* ── Google Fonts ────────────────────────────────────── */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+/* ── Light Mode Tokens ───────────────────────────────── */
+:root {
+  /* Colors */
+  --text: #6b7280;
+  --text-h: #111827;
+  --bg: #ffffff;
+  --border: #e5e7eb;
+  --code-bg: #f9fafb;
+  --accent: #8b5cf6;
+  --accent-bg: rgba(139, 92, 246, 0.08);
+  --accent-border: rgba(139, 92, 246, 0.3);
+  --navbar-bg: rgba(255, 255, 255, 0.85);
+  --shadow:
+    rgba(0, 0, 0, 0.08) 0 10px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0 4px 8px -2px;
+
+  /* Typography */
+  --sans: "Inter", system-ui, -apple-system, sans-serif;
+  --heading: "Inter", system-ui, -apple-system, sans-serif;
+  --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
+
+  font: 16px/150% var(--sans);
+  letter-spacing: 0.1px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Dark Mode Tokens ────────────────────────────────── */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #9ca3af;
+    --text-h: #f9fafb;
+    --bg: #111827;
+    --border: #1f2937;
+    --code-bg: #1a2332;
+    --accent: #a78bfa;
+    --accent-bg: rgba(167, 139, 250, 0.12);
+    --accent-border: rgba(167, 139, 250, 0.35);
+    --navbar-bg: rgba(17, 24, 39, 0.9);
+    --shadow:
+      rgba(0, 0, 0, 0.5) 0 10px 25px -5px,
+      rgba(0, 0, 0, 0.3) 0 4px 8px -2px;
+  }
+}
+
+/* ── Reset & Base ────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Typography ──────────────────────────────────────── */
+h1,
+h2,
+h3 {
+  font-family: var(--heading);
+  color: var(--text-h);
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+}
+
+/* ── Code ────────────────────────────────────────────── */
+code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 6px;
+  color: var(--accent);
+}
+
+pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: inherit;
+}
+
+/* ── Scrollbar ───────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}

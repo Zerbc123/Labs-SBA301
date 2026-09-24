@@ -1,0 +1,150 @@
+/**
+ * child-route shared styles (DashboardMessages + DashboardTasks)
+ * Imported by App.css globally so both children share the same base layout.
+ */
+
+.child-route {
+  display: flex;
+  flex-direction: column;
+}
+
+.child-route-header {
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid var(--border);
+
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-h);
+    margin: 0 0 4px;
+  }
+
+  p {
+    font-size: 12px;
+    color: var(--text);
+    margin: 0;
+    line-height: 1.5;
+  }
+}
+
+.task-progress {
+  display: inline-block;
+  margin-top: 8px !important;
+  padding: 2px 10px;
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  border-radius: 100px;
+  color: var(--accent) !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+}
+
+/* ── Messages ────────────────────────────────────────── */
+.message-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.message-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 24px;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+    background: var(--accent-bg);
+  }
+}
+
+.msg-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+.msg-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.msg-from {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.msg-text {
+  font-size: 13px;
+  color: var(--text);
+}
+
+.msg-time {
+  font-size: 12px;
+  color: var(--text);
+  font-family: var(--mono);
+  flex-shrink: 0;
+}
+
+/* ── Tasks ───────────────────────────────────────────── */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  padding: 14px 24px;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+    background: var(--accent-bg);
+  }
+
+  &.done .task-text {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+}
+
+.task-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+
+  input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--accent);
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+}
+
+.task-text {
+  font-size: 14px;
+  color: var(--text-h);
+  transition: opacity 0.2s;
+}
