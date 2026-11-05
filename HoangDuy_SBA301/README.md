@@ -1,8 +1,9 @@
+<!-- Author: DuyDLHCE200667 -->
 # FUNews Management System - Frontend Quản Trị ReactJS
 
 > **Môn học:** SBA301 – Integrate Single Page Application with Spring Boot  
 > **Bài tập:** Assignment 01 – Working with ReactJS Application  
-> **Sinh viên:** Hoàng Duy  
+> **Sinh viên:** Hoàng Duy (`DuyDLHCE200667`)  
 > **Tên Project:** `HoangDuy_SBA301`  
 > **Công nghệ:** ReactJS 19 + Vite 8 + Pure Modern CSS + Lucide Icons  
 

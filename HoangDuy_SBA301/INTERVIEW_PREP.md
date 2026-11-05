@@ -1,7 +1,8 @@
+<!-- Author: DuyDLHCE200667 -->
 # Cẩm Nang Ôn Luyện Phỏng Vấn & Vấn Đáp Mã Nguồn (Interview Preparation)
 
 > **Môn học:** SBA301 – Assignment 01: Working with ReactJS Application  
-> **Dành cho sinh viên:** Hoàng Duy  
+> **Dành cho sinh viên:** Hoàng Duy (`DuyDLHCE200667`)  
 > **Mục tiêu:** Đạt điểm tuyệt đối trong các phần:
 > - **Code Explanation (1.0 điểm)**
 > - **Solution Design & Reasoning (1.5 điểm)**

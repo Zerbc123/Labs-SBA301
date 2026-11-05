@@ -1,4 +1,5 @@
 /**
+ * @author DuyDLHCE200667
  * Badges.jsx - Hiển thị nhãn trạng thái và phân quyền trực quan
  * Chuyển đổi mã số 1/0 và role 1/2 thành nhãn tiếng Việt dễ hiểu
  */

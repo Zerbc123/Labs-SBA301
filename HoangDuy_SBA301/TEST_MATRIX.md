@@ -1,7 +1,8 @@
+<!-- Author: DuyDLHCE200667 -->
 # Ma Trận Kiểm Thử Bắt Buộc (Test Matrix)
 
 > **Dự án:** FUNews Management System (`HoangDuy_SBA301`)  
-> **Người thực hiện:** Hoàng Duy  
+> **Người thực hiện:** Hoàng Duy (`DuyDLHCE200667`)  
 > **Ngày kiểm thử:** 12/10/2026  
 > **Tỷ lệ vượt qua:** 35 / 35 test cases (100% PASS)
 

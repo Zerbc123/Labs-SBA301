@@ -1,4 +1,5 @@
 /**
+ * @author DuyDLHCE200667
  * SettingsPage.jsx - Màn hình Cài đặt hệ thống & Quản lý dữ liệu mẫu
  * Hỗ trợ xem thông tin cá nhân, khôi phục dữ liệu mẫu (Reset Data) cho việc chấm bài
  */

@@ -1,4 +1,5 @@
 /**
+ * @author DuyDLHCE200667
  * AdminLayout.jsx - Layout khung chuẩn cho toàn bộ trang quản trị (R05)
  * Kết nối Sidebar + Header + Khu vực nội dung Content + Footer
  */

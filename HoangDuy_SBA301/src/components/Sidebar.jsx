@@ -1,4 +1,5 @@
 /**
+ * @author DuyDLHCE200667
  * Sidebar.jsx - Thanh điều hướng chính của hệ thống quản trị
  * R04: Hiển thị Logo AI
  * R06: Menu 5 mục (Dashboard, Category, News, Users, Settings)
@@ -12,8 +13,7 @@ import {
   Users,
   Settings,
   LogOut,
-  ChevronRight,
-  Sparkles
+  ChevronRight
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import logoImg from '../assets/fu-news-logo.jpg';
@@ -42,20 +42,17 @@ export const Sidebar = ({ activeTab, onSelectTab, isMobileOpen, onCloseMobile })
       )}
 
       <aside className={`admin-sidebar ${isMobileOpen ? 'sidebar-mobile-open' : ''}`}>
-        {/* Brand / Logo AI section */}
+        {/* Brand / Logo section */}
         <div className="sidebar-brand">
           <div className="brand-logo-wrapper">
             <img
               src={logoImg}
-              alt="FUNews Logo AI"
+              alt="FUNews Logo"
               className="brand-logo-img"
               onError={(e) => {
                 e.target.style.display = 'none';
               }}
             />
-            <div className="brand-badge-ai" title="Logo được sinh bởi AI theo R04">
-              <Sparkles size={11} /> AI
-            </div>
           </div>
           <div className="brand-text">
             <h2 className="brand-title">FUNews</h2>

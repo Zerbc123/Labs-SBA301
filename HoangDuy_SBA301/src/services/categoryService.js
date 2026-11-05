@@ -1,4 +1,5 @@
 /**
+ * @author DuyDLHCE200667
  * categoryService.js - Tầng nghiệp vụ cho Category (Thể loại tin tức)
  * Hỗ trợ CRUD, Search, và kiểm tra ràng buộc toàn vẹn dữ liệu
  */

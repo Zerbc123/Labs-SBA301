@@ -1,0 +1,192 @@
+/* DuyDLH-CE200667 */
+/* FUNewsManagementSystem - Bootstrap 5 Theme Enhancements */
+
+:root {
+  --primary-color: #4f46e5;
+  --primary-600: #4f46e5;
+  --primary-700: #4338ca;
+  --primary-hover: #4338ca;
+  --sidebar-width: 260px;
+  --bg-app: var(--bs-tertiary-bg);
+  --bg-surface: var(--bs-body-bg);
+  --bg-sidebar: #0f172a;
+  --text-main: var(--bs-body-color);
+  --text-muted: var(--bs-secondary-color);
+  --text-dim: var(--bs-secondary-color);
+  --border-light: var(--bs-border-color);
+  --border-subtle: var(--bs-border-color-translucent);
+  --primary-50: rgba(79, 70, 229, 0.08);
+  --primary-100: rgba(79, 70, 229, 0.15);
+  --primary-200: rgba(79, 70, 229, 0.3);
+  --primary-500: #6366f1;
+  --primary-glow: rgba(99, 102, 241, 0.2);
+  --primary-gradient: linear-gradient(135deg, #4f46e5, #7c3aed);
+  --danger-badge: #dc3545;
+  --danger-bg: var(--bs-danger-bg-subtle);
+  --danger-text: var(--bs-danger-text-emphasis);
+  --danger-border: var(--bs-danger-border-subtle);
+  --success-badge: #198754;
+  --success-bg: var(--bs-success-bg-subtle);
+  --success-text: var(--bs-success-text-emphasis);
+  --success-border: var(--bs-success-border-subtle);
+  --sidebar-text: #94a3b8;
+  --sidebar-hover: #1e293b;
+  --sidebar-active-bg: var(--primary-color);
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+  --shadow-sm: 0 2px 4px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.1);
+  --shadow-lg: 0 8px 24px rgba(15, 23, 42, 0.15);
+  --shadow-xl: 0 16px 48px rgba(15, 23, 42, 0.18);
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+  background-color: var(--bs-body-bg);
+}
+
+/* Primary Button Styling */
+.btn-primary {
+  background-color: #4f46e5 !important;
+  border-color: #4f46e5 !important;
+  color: #ffffff !important;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(79, 70, 229, 0.25);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #4338ca !important;
+  border-color: #4338ca !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 10px rgba(79, 70, 229, 0.35);
+}
+
+/* Sidebar Styling */
+.app-sidebar {
+  width: var(--sidebar-width);
+  min-width: var(--sidebar-width);
+  background-color: #0f172a;
+  color: #94a3b8;
+  display: flex;
+  flex-direction: column;
+  z-index: 1030;
+  transition: all 0.25s ease;
+}
+
+.app-sidebar .nav-link {
+  color: #94a3b8;
+  border-radius: 0.5rem;
+  padding: 0.65rem 1rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: all 0.15s ease;
+  margin-bottom: 0.25rem;
+}
+
+.app-sidebar .nav-link:hover {
+  color: #ffffff;
+  background-color: #1e293b;
+}
+
+.app-sidebar .nav-link.active {
+  color: #ffffff;
+  background-color: var(--primary-color);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.35);
+  font-weight: 600;
+}
+
+/* App Header */
+.app-header {
+  height: 68px;
+  background-color: var(--bs-body-bg);
+  border-bottom: 1px solid var(--bs-border-color);
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+/* User Avatar */
+.avatar-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+/* Theme toggle button */
+.btn-theme-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--bs-border-color);
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+.btn-theme-circle:hover {
+  border-color: #4f46e5;
+  background-color: rgba(79, 70, 229, 0.08);
+}
+
+/* Tables */
+.table-hover tbody tr:hover {
+  background-color: rgba(79, 70, 229, 0.04);
+}
+
+/* Action Icon Buttons */
+.btn-action-icon {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: 1px solid var(--bs-border-color);
+  background-color: var(--bs-body-bg);
+  color: var(--bs-secondary-color);
+  transition: all 0.15s ease;
+}
+
+.btn-action-icon:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  background-color: rgba(79, 70, 229, 0.08);
+}
+
+.btn-action-icon.danger:hover {
+  color: #dc3545;
+  border-color: #dc3545;
+  background-color: rgba(220, 53, 69, 0.08);
+}
+
+/* Mobile responsive sidebar */
+@media (max-width: 991.98px) {
+  .app-sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: calc(-1 * var(--sidebar-width));
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  .app-sidebar.show {
+    left: 0;
+  }
+}

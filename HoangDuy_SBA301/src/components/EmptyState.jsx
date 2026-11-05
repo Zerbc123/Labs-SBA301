@@ -1,4 +1,5 @@
 /**
+ * @author DuyDLHCE200667
  * EmptyState.jsx - Hiển thị trạng thái rỗng khi không có dữ liệu hoặc không tìm thấy kết quả
  * Thỏa mãn tiêu chí kiểm thử Data Empty state và Search miss
  */

@@ -1,4 +1,5 @@
 /**
+ * @author DuyDLHCE200667
  * newsService.js - Tầng nghiệp vụ cho Tin tức (News Articles)
  * Quản lý liên kết CategoryId, CRUD, tìm kiếm và lọc dữ liệu
  */

@@ -1,7 +1,8 @@
+<!-- Author: DuyDLHCE200667 -->
 # Nhật Ký Debug Lỗi Hệ Thống (Debug Log)
 
 > **Dự án:** FUNews Management System (`HoangDuy_SBA301`)  
-> **Người thực hiện:** Hoàng Duy  
+> **Người thực hiện:** Hoàng Duy (`DuyDLHCE200667`)  
 > **Mục tiêu:** Đáp ứng tiêu chí đánh giá **Debugging & Problem Solving (1.5 điểm)** theo quy trình 5 bước chuẩn:
 > 1. Mô tả triệu chứng quan sát được
 > 2. Khoanh vùng component/state liên quan

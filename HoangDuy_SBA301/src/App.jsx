@@ -1,4 +1,5 @@
 /**
+ * @author DuyDLHCE200667
  * App.jsx - Component gốc của ứng dụng FUNewsManagementSystem
  * Điều phối luồng xác thực (LoginPage vs AdminLayout)
  * và điều hướng tab chức năng (State Navigation SPA)

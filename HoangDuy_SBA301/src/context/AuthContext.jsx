@@ -1,4 +1,5 @@
 /**
+ * @author DuyDLHCE200667
  * AuthContext.jsx - Context quản lý phiên làm việc & trạng thái xác thực
  * Cung cấp: currentUser, isAuthenticated, login, logout
  */

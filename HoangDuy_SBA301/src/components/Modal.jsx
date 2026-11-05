@@ -1,4 +1,5 @@
 /**
+ * @author DuyDLHCE200667
  * Modal.jsx - Dialog tái sử dụng cho chức năng Thêm mới (Create) và Cập nhật (Update)
  * Yêu cầu: Popup dialog, ngăn click nền vô ý nếu cần, phím ESC để đóng
  */

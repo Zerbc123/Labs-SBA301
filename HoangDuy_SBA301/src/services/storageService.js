@@ -1,4 +1,5 @@
 /**
+ * @author DuyDLHCE200667
  * storageService.js - Quản lý lưu trữ localStorage đồng bộ
  * Đảm bảo dữ liệu không bị mất sau khi reload (Persistence requirement)
  */

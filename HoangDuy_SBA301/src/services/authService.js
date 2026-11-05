@@ -1,4 +1,5 @@
 /**
+ * @author DuyDLHCE200667
  * authService.js - Xử lý xác thực người dùng (Mock Authentication)
  * Quy định đề bài:
  * - Admin/Admin đăng nhập thành công vào admin page

@@ -1,7 +1,8 @@
+<!-- Author: DuyDLHCE200667 -->
 # Nhật Ký Sử Dụng AI Minh Bạch (AI Usage Log)
 
 > **Môn học:** SBA301 – Assignment 01: Working with ReactJS Application  
-> **Sinh viên:** Hoàng Duy  
+> **Sinh viên:** Hoàng Duy (`DuyDLHCE200667`)  
 > **Mục tiêu:** Đáp ứng tiêu chí **AI Usage & Engineering Practice (0.5 điểm)** theo đúng quy định học thuật tại Mục 0.3 và Mục 9 trong tài liệu Hướng dẫn Sinh viên.
 
 ---

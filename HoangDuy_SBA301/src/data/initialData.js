@@ -1,4 +1,5 @@
 /**
+ * @author DuyDLHCE200667
  * initialData.js - Dữ liệu mẫu chuẩn cho FUNewsManagementSystem
  * Gồm: Categories, News Articles, Users/Accounts
  * Tuân thủ quy định:

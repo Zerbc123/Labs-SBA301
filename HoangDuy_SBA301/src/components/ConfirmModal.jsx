@@ -1,4 +1,5 @@
 /**
+ * @author DuyDLHCE200667
  * ConfirmModal.jsx - Hộp thoại xác nhận thao tác nguy hiểm (Xóa / Hủy)
  * Thỏa mãn R11: Cancel không xóa, chỉ confirm mới thực hiện xóa
  */
